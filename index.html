@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="template">
+        <div class="container-title">
+            <h1 class="title-text">#todo</h1>
+        </div>
+        <!-- tab area -->
+        <div class="tabs">
+            <div class="tab all selected">All</div>
+            <div class="tab active">Active</div>
+            <div class="tab completed">Completed</div>
+            <div class="line"></div>
+        </div>
+        <!-- input area -->
+        <div class="input-container">
+            <div class="input-row ">
+                <textarea name="text" class="text-field" placeholder="add todo"></textarea>
+                <button type="button" class="sumbit-button off">Add</button>
+            </div>
+        </div>
+
+        <!-- list area -->
+        <ul class="todo-list">
+
+        </ul>
+        <!-- delete Button -->
+        <button class="delete-button hide">
+            <span>delete all</span>
+        </button>
+    </div>
+</body>
+
+</html>
